@@ -11,14 +11,14 @@ public class AlgF {
 		 * 
 		 */
 		int pay = 3587960;
-		System.out.println(pay/50000);//37960
-		System.out.println(pay%50000/10000);//7960
-		System.out.println(pay%50000%10000/5000);//2960
-		System.out.println(pay%50000%10000%5000/1000);//960
-		System.out.println(pay%50000%10000%5000%1000/500);//460
-		System.out.println(pay%50000%10000%5000%1000%500/100);//60
-		System.out.println(pay%50000%10000%5000%1000%500%100/50);//10
-		System.out.println(pay%50000%10000%5000%1000%500%100%50/10);//0
+		System.out.println("50000원권 " +pay/50000+"매");//37960
+		System.out.println("10000원권 " +pay%50000/10000+"매");//7960
+		System.out.println("5000원권 " +pay%50000%10000/5000+"매");//2960
+		System.out.println("1000원권 " +pay%50000%10000%5000/1000+"매");//960
+		System.out.println("500원권 " +pay%50000%10000%5000%1000/500+"매");//460
+		System.out.println("100원권 " +pay%50000%10000%5000%1000%500/100+"매");//60
+		System.out.println("50원권 " +pay%50000%10000%5000%1000%500%100/50+ "매");//10
+		System.out.println("10원권 " +pay%50000%10000%5000%1000%500%100%50/10 +"매");//0
 		
 	}
 }
