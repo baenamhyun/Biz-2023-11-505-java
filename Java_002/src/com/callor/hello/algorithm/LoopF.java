@@ -15,8 +15,10 @@ public class LoopF {
 		if((i+1) % 10 == 0) {
 			System.out.println();
 		}
-	}
 	
 	}
+	}
+}
+	
 	
 
